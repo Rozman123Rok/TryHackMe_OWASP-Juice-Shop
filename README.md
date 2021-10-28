@@ -27,6 +27,21 @@ Question #3: Download the Backup file!
 - wget http://10.10.246.8/ftp/package.json.bak%2500.md 
 - Flag: bfc1e6b4a16579e85e06fee4c36ff8c02fb13795
 
+## Task 6 Who's flying this thing? 
+Question #1: Access the administration page!
+- Najprej sem odprl Sources
+- Refresh page in odprl main-es.js
+- Poiskal admin in nasel tako kot v navodilih
+- Se vpisal v admina in sel na stran
+- Flag: 946a799363226a24822008503f5d1324536629a0
 
+Question #2: View another user's shopping basket!
+- Po navodilih kot admin pogledal kosarico
+- Spremenil v Burp na id 2
+- Flag: 41b997a36cc33fbe4f0ba018474e19ae5ce52121
+
+Question #3: Remove all 5-star reviews!
+- Sel na administration page in zbrisal 5 star 
+- Flag: 50c97bcce0b895e446d61c83a21df371ac2266ef
 
 
