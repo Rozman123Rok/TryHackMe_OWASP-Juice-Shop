@@ -44,4 +44,27 @@ Question #3: Remove all 5-star reviews!
 - Sel na administration page in zbrisal 5 star 
 - Flag: 50c97bcce0b895e446d61c83a21df371ac2266ef
 
+## Task 7 Where did that come from? 
+Question #1: Perform a DOM XSS!
+- V search bar sem napisal: < iframe src="javascript:alert(`xss`)" > 
+- Flag: 9aaf4bbea5c30d00a1f5bbcfce4db6d4b0efe0bf
 
+Question #2: Perform a persistent XSS!
+- Sledil navodilam
+- Flag: 149aa8ce13d7a4a8a931472308e269c94dc5f156
+
+Question #3: Perform a reflected XSS!
+- V id v url kopiral < iframe src="javascript:alert(`xss`)" >
+- Flag: 23cefee1527bde039295b2616eeb29e1edc660a0
+
+## Task 8 Exploration! 
+- Naredil in si pogledal dodatne izzive.
+
+
+
+Use the bonus payload < iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe> in the DOM XSS challenge.
+- Flag: 26bdee65430d102cf5f1d41046c2ff22c95811d3
+
+You successfully solved a challenge: Zero Stars (Give a devastating zero-star feedback to the store.)
+- Dal feedback toda v Burpu spremenil rating na 0.
+- Flag: 88b7c1d1349d618f7f0e25563295543559d98d4f
